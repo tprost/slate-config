@@ -25,17 +25,17 @@ bind l:${mod} ${center}
 
 bind m:${mod} throw next
 
-bind a:${mod},shift focus 'Anki'
-bind c:${mod},shift focus 'Google Chrome'
-bind e:${mod},shift focus 'Emacs'
-bind f:${mod},shift focus 'Finder'
-bind j:${mod},shift focus '辞書'
-bind k:${mod},shift focus 'Skype'
-bind l:${mod},shift focus 'LINE'
-bind p:${mod},shift focus 'プレビュー'
-bind r:${mod},shift focus 'Renoise'
-bind s:${mod},shift focus 'システム環境設定'
-bind t:${mod},shift focus 'ターミナル'
-bind v:${mod},shift focus 'VLC'
+bind a:${mod} focus 'Anki'
+bind c:${mod} focus 'Google Chrome'
+bind e:${mod} focus 'Emacs'
+bind f:${mod} focus 'Finder'
+bind j:${mod} focus '辞書'
+bind k:${mod} focus 'Skype'
+bind l:${mod} focus 'LINE'
+bind p:${mod} focus 'プレビュー'
+bind r:${mod} focus 'Renoise'
+bind s:${mod} focus 'システム環境設定'
+bind t:${mod} focus 'ターミナル'
+bind v:${mod} focus 'VLC'
 
 bind tab:cmd switch
